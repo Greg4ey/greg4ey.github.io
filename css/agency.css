@@ -73,7 +73,7 @@ img::-moz-selection {
     box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
 #mainNav {
-  background-color: #212529; }
+  background-color: #1d222d; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -83,8 +83,6 @@ img::-moz-selection {
     border: 0;
     background-color: #f4623a;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
-  #mainNav.navbar-shrink .nav-link {
-    color: white !important; }
   #mainNav .navbar-brand {
     color: #f4623a;
     font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
@@ -95,10 +93,20 @@ img::-moz-selection {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: black;
+    color: #1d222d;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #f4623a; }
+
+@media (max-width: 991px) {
+  #mainNav .nav-link {
+    color: white !important; }
+  #mainNav .fonce {
+    display: none; }
+  #mainNav .clair {
+    display: inline; }
+  embed {
+    height: 40px; } }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -124,17 +132,19 @@ img::-moz-selection {
       padding-top: 0;
       padding-bottom: 0;
       background-color: #212529; }
-      #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0; }
+      #mainNav.navbar-shrink .nav-link {
+        color: white !important; }
       #mainNav.navbar-shrink .fonce {
         display: none; }
       #mainNav.navbar-shrink .clair {
-        display: inline; } }
+        display: inline; }
+      #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; } }
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: #1d222d;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;

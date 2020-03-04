@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: $dark;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -10,11 +10,6 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
-  }
-  &.navbar-shrink{
-    .nav-link{
-      color: white !important;
-    }
   }
   .navbar-brand {
     color: $primary;
@@ -33,7 +28,7 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: black;
+        color: $dark;
         @include heading-font;
         &.active,
         &:hover {
@@ -41,6 +36,22 @@
         }
       }
     }
+  }
+}
+@media(max-width:991px) {
+  #mainNav {
+    .nav-link{
+      color: white !important;
+    }
+    .fonce{
+      display: none;
+    }
+    .clair{
+      display: inline;
+    }
+  }
+  embed {
+    height: 40px;
   }
 }
 @media(min-width:992px) {
@@ -75,15 +86,18 @@
       padding-top: 0;
       padding-bottom: 0;
       background-color: $gray-900;
-      .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
+      .nav-link{
+        color: white !important;
       }
       .fonce{
         display: none;
       }
       .clair{
         display: inline;
+      }
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
       }
     }
   }
