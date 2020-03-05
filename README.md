@@ -1,6 +1,6 @@
 # Tekonmi
 
-Based from [Agency](https://startbootstrap.com/template-overviews/agency/)
+Based on [Agency](https://startbootstrap.com/template-overviews/agency/)
 
 ## Usage
 
