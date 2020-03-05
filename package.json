@@ -1,12 +1,12 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.2.2",
+    "title": "Tekonmi",
+    "name": "tekonmi",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "buildcss": "node-sass ./scss/agency.scss ./css/agency.css"
+        "build": "gulp build "
     },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": "Tekonmi website",
     "keywords": [
         "css",
         "sass",
@@ -15,20 +15,11 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Tekonmi",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
