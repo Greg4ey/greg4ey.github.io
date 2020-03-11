@@ -30,9 +30,11 @@
         letter-spacing: 1px;
         color: $dark;
         @include heading-font;
-        &.active,
-        &:hover {
+        &.active{
           color: $primary !important;
+        }
+        &:hover {
+          color: $secondary !important;
         }
       }
     }
