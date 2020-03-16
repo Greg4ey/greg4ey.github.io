@@ -288,6 +288,23 @@ header.masthead .intro-text .intro-heading {
   color: #f4623a;
 }
 
+#planning .web {
+  display: block;
+}
+
+#planning .mobile {
+  display: none;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+  #planning .web {
+    display: none;
+  }
+  #planning .mobile {
+    display: block;
+  }
+}
+
 section#contact {
   background-color: #1d222d;
   background-image: url("../img/map-image.png");
