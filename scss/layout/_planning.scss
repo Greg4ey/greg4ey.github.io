@@ -3,12 +3,10 @@
     .web{
         display:block;
        }
-     
       .mobile{
        display:none;
       }
-     
-     @media (max-width: 640px) and (min-width: 320px){
+     @media (max-width: 640px){
        .web{
         display:none;
        }

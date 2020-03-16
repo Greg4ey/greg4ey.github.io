@@ -296,7 +296,7 @@ header.masthead .intro-text .intro-heading {
   display: none;
 }
 
-@media (max-width: 640px) and (min-width: 320px) {
+@media (max-width: 640px) {
   #planning .web {
     display: none;
   }
