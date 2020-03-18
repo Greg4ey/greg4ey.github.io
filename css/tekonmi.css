@@ -284,6 +284,11 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.team-member .resume {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
 #project b {
   color: #f4623a;
 }
