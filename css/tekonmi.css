@@ -65,11 +65,13 @@ h6 {
 ::-moz-selection {
   background: #f4623a;
   text-shadow: none;
+  color: white;
 }
 
 ::selection {
   background: #f4623a;
   text-shadow: none;
+  color: white;
 }
 
 img::-moz-selection {
